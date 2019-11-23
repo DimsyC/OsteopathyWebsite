@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import "./App.css";
 
 //Components
@@ -29,7 +29,13 @@ function App() {
 }
 
 function Home() {
-  return <h2>Home</h2>;
+  const videoURL = "/Videos/IMG_5474.mp4"
+
+  return <video controls muted loop autoPlay>
+  <source src={videoURL} type="video/mp4" />
+  <source src={videoURL} type="video/ogg" />
+  Your browser does not support the video tag.
+</video>;
 }
 
 function About() {

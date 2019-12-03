@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 
 //Components
+import {Image} from "react-bootstrap"
 import Navbar from "./NavBar";
 import VideoModal from "./VideoModal";
 
@@ -56,7 +57,8 @@ class App extends React.Component {
 }
 
 function Home() {
-  return <div>Home</div>;
+  const imageUrl = "/Images/posturoplus_logo_1.svg"
+  return <div><img height='250px' width="250px" src={imageUrl} fluid /></div>;
 }
 
 function About() {

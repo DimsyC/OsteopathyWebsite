@@ -57,12 +57,11 @@ class App extends React.Component {
 }
 
 function Home() {
-  const imageUrl = "/Images/test.svg"
-  return <div>Home</div>;
+  return <h2>Home</h2>;
 }
 
 function About() {
-  return <div></div>;
+  return <h2>About</h2>;
 }
 
 function ContactUs() {

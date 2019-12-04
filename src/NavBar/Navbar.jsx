@@ -4,10 +4,11 @@ import {Navbar,Nav} from "react-bootstrap";
 
 //Styling for the Navigation Component
 import "./Navbar.scss";
+import GoRendezVous from "../GoRendezVous/GoRendezVous";
 
 function NavigationBar() {
   return (
-    <Navbar className='NavigationBar' expand="md">
+    <Navbar className='NavigationBar' expand="sm">
       <Navbar.Brand href="#home">
       <img
         alt=""
@@ -19,7 +20,7 @@ function NavigationBar() {
     </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="">
+        <Nav>
           <Nav.Link href="/">Home</Nav.Link>
           <Nav.Link href="/about">About</Nav.Link>
           <Nav.Link href="/contact-us">Contact us</Nav.Link>

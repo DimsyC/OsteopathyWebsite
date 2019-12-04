@@ -3,9 +3,10 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 
 //Components
-import {Image} from "react-bootstrap"
 import Navbar from "./NavBar";
 import VideoModal from "./VideoModal";
+import GoRendezVous from "./GoRendezVous";
+
 
 class App extends React.Component {
   constructor() {
@@ -57,7 +58,7 @@ class App extends React.Component {
 }
 
 function Home() {
-  return <h2>Home</h2>;
+  return <GoRendezVous/>;
 }
 
 function About() {
@@ -65,7 +66,7 @@ function About() {
 }
 
 function ContactUs() {
-  return <h2>Contact Us</h2>;
+  return <h2>About</h2>;
 }
 
 export default App;

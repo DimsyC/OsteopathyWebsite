@@ -7,7 +7,7 @@ import "./Navbar.scss";
 
 function NavigationBar() {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar className='NavigationBar' expand="md">
       <Navbar.Brand href="#home">
       <img
         alt=""

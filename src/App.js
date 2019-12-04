@@ -66,7 +66,7 @@ function About() {
 }
 
 function ContactUs() {
-  return <h2>About</h2>;
+  return <h2>Contact us</h2>;
 }
 
 export default App;

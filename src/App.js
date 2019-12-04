@@ -57,8 +57,8 @@ class App extends React.Component {
 }
 
 function Home() {
-  const imageUrl = "/Images/posturoplus_logo_1.svg"
-  return <div><img height='250px' width="250px" src={imageUrl} fluid /></div>;
+  const imageUrl = "/Images/test.svg"
+  return <div>Home</div>;
 }
 
 function About() {

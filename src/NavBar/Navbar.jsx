@@ -8,14 +8,15 @@ import "./Navbar.scss";
 function NavigationBar() {
   return (
     <Navbar bg="light" expand="lg">
-      <Navbar.Brand href="#home">      <img
+      <Navbar.Brand href="#home">
+      <img
         alt=""
-        src="/logo.svg"
-        width="30"
-        height="30"
+        src="/Images/logo_posturoplus_sports_bien_etre.svg"
+        width="200"
+        height="50"
         className="d-inline-block align-top"
       />
-      {'Posturo+'}</Navbar.Brand>
+    </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">

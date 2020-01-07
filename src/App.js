@@ -6,6 +6,7 @@ import "./App.css";
 import Navbar from "./NavBar";
 import VideoModal from "./VideoModal";
 import GoRendezVous from "./GoRendezVous";
+import CallToAction from "./CallToAction";
 
 
 class App extends React.Component {
@@ -58,7 +59,7 @@ class App extends React.Component {
 }
 
 function Home() {
-  return <GoRendezVous/>;
+  return <CallToAction/>;
 }
 
 function About() {

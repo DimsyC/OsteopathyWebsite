@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 
@@ -6,6 +6,7 @@ import "./App.css";
 import Navbar from "./NavBar";
 import VideoModal from "./VideoModal";
 import GoRendezVous from "./GoRendezVous";
+import Services from "./Services"
 import CallToAction from "./CallToAction";
 
 
@@ -59,15 +60,22 @@ class App extends React.Component {
 }
 
 function Home() {
-  return <CallToAction/>;
+  return<>
+  <CallToAction/>
+  <Services/>
+  </> ;
 }
 
 function About() {
-  return <h2>About</h2>;
+  return About;
 }
 
 function ContactUs() {
-  return <h2>Contact us</h2>;
+  return (
+    <>
+     Contact-us
+    </>
+  );
 }
 
 export default App;

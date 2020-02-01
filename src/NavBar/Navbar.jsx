@@ -26,10 +26,6 @@ function NavigationBar() {
           <Nav.Link href="#Valeurs">Valeurs</Nav.Link>
           <Nav.Link href="#Philosophie">Philosophie</Nav.Link>
         </Nav>
-        <div className='text-center'>
-
-        <GoRendezVous />
-        </div>
       </Navbar.Collapse>
     </Navbar>
   );

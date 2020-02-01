@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 
 //Components
@@ -19,17 +18,17 @@ class App extends React.Component {
     this.state = { showVideo: true };
   }
 
-  componentDidMount() {
-    //Local Variable determining if the user has  already visited the site
-    let visited = localStorage["alreadyVisited"];
-    if (visited) {
-      this.setState({ showVideo: false });
-    } else {
-      //this is the first time
-      localStorage["alreadyVisited"] = true;
-      this.setState({ showVideo: true });
-    }
-  }
+  // componentDidMount() {
+  //   //Local Variable determining if the user has  already visited the site
+  //   let visited = localStorage["alreadyVisited"];
+  //   if (visited) {
+  //     this.setState({ showVideo: false });
+  //   } else {
+  //     //this is the first time
+  //     localStorage["alreadyVisited"] = true;
+  //     this.setState({ showVideo: true });
+  //   }
+  // }
 
   hideVideo = () => {
     this.setState({ showVideo: false });

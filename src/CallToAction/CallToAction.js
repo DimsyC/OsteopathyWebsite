@@ -1,14 +1,15 @@
 import React, { useState } from "react";
 import { Modal, Button } from "react-bootstrap";
 import GoRendezVous from "../GoRendezVous";
+import background from "./Image/peaceBackground.jpg";
 import "./CallToAction.scss"
 
 function CallToAction(props) {
-  const background = "/Images/ctaImage.jpg";
   return (
     <div
       style={{
-        maxHeight: "500px",
+        minHeight: "560px",
+        height:'100vh',
         backgroundImage: `url(${background})`,
         backgroundPosition: "center",
         backgroundRepeat: " no-repeat",

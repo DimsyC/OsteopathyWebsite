@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 
@@ -6,14 +6,17 @@ import "./App.css";
 import Navbar from "./NavBar";
 import VideoModal from "./VideoModal";
 import GoRendezVous from "./GoRendezVous";
-import Services from "./Services"
+import Services from "./Services";
 import CallToAction from "./CallToAction";
-
+import Valeurs from "./Valeurs";
+import Team from "./Team";
+import Philosophie from "./Philosophie";
+import Footer from "./Footer"
 
 class App extends React.Component {
   constructor() {
     super();
-    this.state = { showVideo: false };
+    this.state = { showVideo: true };
   }
 
   componentDidMount() {
@@ -29,53 +32,25 @@ class App extends React.Component {
   }
 
   hideVideo = () => {
-    this.setState({ showVideo: false })
-  }
+    this.setState({ showVideo: false });
+  };
 
   render() {
     const { showVideo } = this.state;
 
     return (
       <div id="App">
-        <VideoModal show = {showVideo} onHide={this.hideVideo}/>
+        <VideoModal show={showVideo} onHide={this.hideVideo} />
         <Navbar />
-        <Router>
-          <>
-            <Switch>
-              <Route path="/about">
-                <About />
-              </Route>
-              <Route path="/contact-us">
-                <ContactUs />
-              </Route>
-              <Route path="/">
-                <Home />
-              </Route>
-            </Switch>
-          </>
-        </Router>
+        <CallToAction />
+        <Services />
+        <Team />
+        <Valeurs />
+        <Philosophie/>
+        <Footer/>
       </div>
     );
   }
-}
-
-function Home() {
-  return<>
-  <CallToAction/>
-  <Services/>
-  </> ;
-}
-
-function About() {
-  return About;
-}
-
-function ContactUs() {
-  return (
-    <>
-     Contact-us
-    </>
-  );
 }
 
 export default App;

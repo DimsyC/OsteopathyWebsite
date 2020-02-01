@@ -1,0 +1,32 @@
+
+#Valeurs{
+    padding:3rem;
+
+    .card-body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1.25rem;
+    }
+
+    .avantage{
+        padding:1rem;
+        background-color:white;
+        margin-bottom: 5px;
+        color: #8bcbd7;
+
+        width: 350px;
+    }
+    
+    .valeurs{
+        padding-left: 10%;
+        padding-right:10%;
+        font-size: 1.5rem;
+    }
+    
+    .valeur{
+        color: white;
+        font-size: 1rem;
+    }
+
+}

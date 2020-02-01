@@ -1,26 +1,27 @@
 .NavigationBar{
-   background-color:transparent;
+   background-color:white;
    box-shadow:0 1px 6px rgba(57,73,76,.35);
 }
 
 .navbar-nav{
     width: 100%;
-    justify-content: space-around;
+    justify-content:space-around;
     .nav-link{
         text-align: center;
     }
 
     a{
-        border: solid;
-        border-color: #28B5C6;
-        color: #28B5C6 !important;
+        // border: solid;
+        // border-color: #28B5C6;
+        color: #8bcbd7 !important;
         font-weight: bold;
+        font-size: x-large;
         margin-bottom:1px;
     }
 
     a:hover{
         border: solid;
-        background-color: #28B5C6;
+        background-color: #8bcbd7;
         border-color: white;
         color: white !important;
         font-weight: bold;

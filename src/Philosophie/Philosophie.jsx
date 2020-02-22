@@ -12,7 +12,6 @@ function Philosophie(props) {
                 fontSize: "4rem",
                 fontWeight: "700",
                 color:'#8bcbd7',
-                textDecoration:'underline'
               }}
             >Philosophie</h2>
             <p>

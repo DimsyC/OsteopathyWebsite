@@ -209,7 +209,7 @@ class Services extends React.Component {
   render() {
     return (
       <div id='Services'>
-          <h1 className='services-header'>Nos Services !</h1>
+          <h1 className='services-header'>Nos Services</h1>
         <div className="row" style={{ marginLeft: "0px", marginRight: "0px" }}>
           <Osteopathie />
           <Kinesiologie />

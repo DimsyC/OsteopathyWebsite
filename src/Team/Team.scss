@@ -1,12 +1,15 @@
 #Team{
     padding:1rem;
 
+    p{
+        font-size:1.3rem;
+    }
+
     .section-title{
         color:#8bcbd7;
         margin-left:15px;
         margin-right:15px;
         margin-bottom: 15px;
-        text-decoration: underline;
     }
 
     img{
@@ -28,6 +31,8 @@
         padding:1rem;
         background-color: #8bcbd7;
         color: white;
+        border:none;
+        border-radius:0;
 
     }
 }

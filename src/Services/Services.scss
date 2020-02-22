@@ -6,7 +6,6 @@
     .services-header{
         padding:15px;
         color:#8bcbd7;
-        text-decoration:underline;
     }
     
     p{
@@ -20,8 +19,8 @@
     
     .service{
         margin:5px;
-        min-width: 250px;
-        height:450px;
+        min-width: 350px;
+        min-height:450px;
         text-align: center;
         .title{
             font-size: 1.5rem;

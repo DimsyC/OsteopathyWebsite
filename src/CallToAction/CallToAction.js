@@ -36,7 +36,7 @@ function CallToAction(props) {
         <p>On vous Supporte. On vous Conseille. On vous Soigne.</p>
       </div>
       <div style={{ display: "flex", justifyContent: "center", marginTop:'15%'}}>
-        <button className='rendezVousBtn'>Prendre un Rendez-vous</button>
+        <GoRendezVous/>
       </div>
     </div>
   );

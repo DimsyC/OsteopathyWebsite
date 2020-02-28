@@ -25,6 +25,9 @@ function NavigationBar() {
           <Nav.Link href="#Team">Equipes</Nav.Link>
           <Nav.Link href="#Valeurs">Valeurs</Nav.Link>
           <Nav.Link href="#Philosophie">Philosophie</Nav.Link>
+        <div className='text-center'>
+          <GoRendezVous />
+        </div>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

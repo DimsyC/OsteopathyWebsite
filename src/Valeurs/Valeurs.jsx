@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import { Col, Row } from "react-bootstrap";
+import React from "react";
 import "./Valeurs.scss";
 import { Card, CardDeck } from "react-bootstrap";
 

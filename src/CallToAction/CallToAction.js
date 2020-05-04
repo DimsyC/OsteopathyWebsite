@@ -1,6 +1,5 @@
-import React, { useState } from "react";
-import { Modal, Button } from "react-bootstrap";
-import GoRendezVous from "../GoRendezVous";
+import React from "react";
+// import GoRendezVous from "../GoRendezVous";
 import background from "./Image/peaceBackground.jpg";
 import "./CallToAction.scss"
 
@@ -36,7 +35,7 @@ function CallToAction(props) {
         <p>On vous Supporte. On vous Conseille. On vous Soigne.</p>
       </div>
       <div style={{ display: "flex", justifyContent: "center", marginTop:'15%'}}>
-        <GoRendezVous/>
+        {/* <GoRendezVous/> */}
       </div>
     </div>
   );

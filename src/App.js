@@ -1,10 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import "./App.css";
 
 //Components
 import Navbar from "./NavBar";
 import VideoModal from "./VideoModal";
-import GoRendezVous from "./GoRendezVous";
 import Services from "./Services";
 import CallToAction from "./CallToAction";
 import Valeurs from "./Valeurs";

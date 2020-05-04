@@ -23,9 +23,9 @@ function CallToAction(props) {
             textTransform: "uppercase"
           }}
         >
-          Sports & Bien-Être
+          {"Sport & Bien-Être"}
         </h1>
-        <p>On vous Supporte. On vous Conseille.</p>
+        <p>{"On vous Supporte. On vous Conseille."}</p>
       </div>
       <div style={{ display: "flex", justifyContent: "center", marginTop:'15%'}}>
         {/* <GoRendezVous/> */}

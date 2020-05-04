@@ -1,8 +1,6 @@
-//Polyfils for Internet explorer browser support
 import 'react-app-polyfill/ie9';
 import 'react-app-polyfill/stable';
 
-//Required React Imports
 import React from 'react';
 import ReactDOM from 'react-dom';
 

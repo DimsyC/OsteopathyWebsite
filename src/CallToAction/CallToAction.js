@@ -23,7 +23,7 @@ function CallToAction(props) {
             textTransform: "uppercase"
           }}
         >
-          Sport & Bien-Être
+          Sports & Bien-Être
         </h1>
         <p>On vous Supporte. On vous Conseille.</p>
       </div>

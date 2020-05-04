@@ -3,7 +3,7 @@ import {Col,Row} from "react-bootstrap"
 
 function Member(props) {
   return (
-    <div class="card">
+    <div className="card">
       <Row>
         <Col xs="12" sm="3" style={{display:'flex',alignItems:'center',justifyContent:'center'}}>
           <img src={props.image} alt="Profile" />

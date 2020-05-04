@@ -4,25 +4,3 @@
 html, body,#root, #App, #App>div {
   font-family: 'Ubuntu'!important;
 }
-
-.rendezVousBtn{
-  color: white;
-  padding: 10px;
-  text-transform: capitalize;
-  font-weight: 600;
-  border: none;
-  border-radius: 10px;
-  background-color: rgba(40, 154, 198, 0.8);
-
-}
-
-.rendezVousBtn:hover{
-  color:  rgba(40, 154, 198, 0.8);
-  padding: 10px;
-  text-transform: capitalize;
-  font-weight: 600;
-  border: 1px solid rgba(40, 154, 198, 0.8);
-  border-radius: 10px;
-  background-color: white;
-
-}

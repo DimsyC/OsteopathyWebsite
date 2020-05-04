@@ -5,7 +5,7 @@ import "./CallToAction.scss"
 
 function CallToAction(props) {
   return (
-    <div
+    <div className='callToAction'
       style={{
         minHeight: "560px",
         height:'100vh',
@@ -16,23 +16,16 @@ function CallToAction(props) {
         padding: "10.5% 20%"
       }}
     >
-      <div
-        style={{
-          color: "white",
-          textAlign: "center",
-          backgroundColor: "rgba(40, 154, 198, 0.35)",
-          paddingBottom: "2.5px"
-        }}
-      >
+      <div className="sportEtBienEtre">
         <h1
           style={{
             fontSize: "4.5rem",
             textTransform: "uppercase"
           }}
         >
-          Santé & Bien-Être
+          Sport & Bien-Être
         </h1>
-        <p>On vous Supporte. On vous Conseille. On vous Soigne.</p>
+        <p>On vous Supporte. On vous Conseille.</p>
       </div>
       <div style={{ display: "flex", justifyContent: "center", marginTop:'15%'}}>
         {/* <GoRendezVous/> */}

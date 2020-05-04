@@ -4,7 +4,7 @@ import { Navbar, Nav } from "react-bootstrap";
 
 //Styling for the Navigation Component
 import "./Navbar.scss";
-// import GoRendezVous from "../GoRendezVous/GoRendezVous";
+import GoRendezVous from "../GoRendezVous/GoRendezVous";
 
 function NavigationBar() {
   return (
@@ -26,7 +26,7 @@ function NavigationBar() {
           <Nav.Link href="#Valeurs">Valeurs</Nav.Link>
           <Nav.Link href="#Philosophie">Philosophie</Nav.Link>
         <div className='text-center'>
-          {/* <GoRendezVous /> */}
+          <GoRendezVous />
         </div>
         </Nav>
       </Navbar.Collapse>

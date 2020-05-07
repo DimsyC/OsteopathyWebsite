@@ -1,5 +1,5 @@
 import React from "react";
-import GoRendezVous from "../GoRendezVous";
+// import GoRendezVous from "../GoRendezVous";
 import background from "./Image/peaceBackground.jpg";
 import "./CallToAction.scss"
 
@@ -28,7 +28,7 @@ function CallToAction(props) {
         <p>{"On vous Supporte. On vous Conseille."}</p>
       </div>
       <div style={{ display: "flex", justifyContent: "center", marginTop:'15%'}}>
-        <GoRendezVous/>
+        {/* <GoRendezVous/> */}
       </div>
     </div>
   );

@@ -8,7 +8,7 @@ import GoRendezVous from "../GoRendezVous/GoRendezVous";
 
 function NavigationBar() {
   return (
-    <Navbar className="NavigationBar" sticky="top" expand="sm">
+    <Navbar className="NavigationBar" sticky="top" expand="lg">
       <Navbar.Brand href="#home">
         <img
           alt=""

@@ -2,7 +2,7 @@
   "name": "posturoplus",
   "version": "0.1.0",
   "engines": {
-    "node": "10.15.3"
+    "node": "16.13.2"
   },
   "private": true,
   "dependencies": {

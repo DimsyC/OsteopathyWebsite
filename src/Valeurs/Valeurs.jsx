@@ -1,6 +1,6 @@
 import React from "react";
 import "./Valeurs.scss";
-import { Card, CardDeck } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 
 function Valeurs(props) {
   return (
@@ -17,7 +17,7 @@ function Valeurs(props) {
       <h1 style={{ color: "white",textAlign:'center',marginBottom:'15px',paddingTop:'3rem',paddingBottom:'3rem' }}>
         Chez Posturo Plus, la cliente ou le client est:
       </h1>
-      <CardDeck style={{marginBottom:'2.5rem'}}>
+      {/* <CardDeck style={{marginBottom:'2.5rem'}}> */}
         <Card>
           <Card.Body>
             <Card.Text>
@@ -41,8 +41,8 @@ function Valeurs(props) {
             </Card.Text>
           </Card.Body>
         </Card>
-      </CardDeck>
-      <CardDeck>
+      {/* </CardDeck>
+      <CardDeck> */}
         <Card>
           <Card.Body>
             <Card.Text>
@@ -61,7 +61,7 @@ function Valeurs(props) {
             </Card.Text>
           </Card.Body>
         </Card>
-      </CardDeck>
+      {/* </CardDeck> */}
       {/* <Col className="valeurs">
         <Row className="avantage">Accueilli(e) avec empathie et respect.</Row>
         <Row className="avantage">

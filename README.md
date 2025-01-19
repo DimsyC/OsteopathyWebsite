@@ -1,6 +1,6 @@
 
 My first Freelance Project in the Winter of 2020.
-Balancing Part-time work, full time studies, I made a custom website for a client with an Ostepathy clinic.
+Balancing Part-time work, full time studies, I made a custom website for a client with an Osteopathy clinic.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
